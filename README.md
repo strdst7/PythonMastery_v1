@@ -1,6 +1,7 @@
 # PythonMastery_v1
 
-## 🎓 PythonMastery_v1 is a structured roadmap for learning Python — guiding you from beginner fundamentals to advanced concepts through progressive exercises and projects.
+## 🎓 PythonMastery_v1 is a structured roadmap for learning Python — guiding you from beginner fundamentals 
+to advanced concepts through progressive exercises and projects.
 
 ## 🛤 Learning Roadmap
 
@@ -63,17 +64,6 @@
 👉 Goal: Develop professional-grade coding habits.
 
 ---
-
-📂 Repository Structure
-
-PythonMastery_v1/
-│
-├── basics/             # Beginner exercises
-├── intermediate/       # Intermediate challenges
-├── advanced/           # Advanced concepts
-├── projects/           # Hands-on projects
-└── README.md           # Documentation
-
 
 🚀 Getting Started
 
