@@ -62,7 +62,7 @@ export default function CodeRunner({
       if (!window.loadPyodide) {
         await new Promise<void>((res, rej) => {
           const s = document.createElement("script");
-          s.src = `${INDEX_URL}/pyodide.js`;
+          s.src = `${INDEX_URL}pyodide.js`;
           s.onload = () => res();
           s.onerror = () => rej(new Error("Failed to load pyodide.js"));
           document.head.appendChild(s);
