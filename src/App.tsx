@@ -126,7 +126,7 @@ export default function App() {
           <div
             className="absolute inset-0 opacity-15"
             style={{
-              backgroundImage: "url(/images/cover-sm.jpg)",
+              backgroundImage: `url(${import.meta.env.BASE_URL}images/cover-sm.jpg)`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
@@ -172,7 +172,7 @@ export default function App() {
               </div>
               <div className="hidden lg:block">
                 <img
-                  src="/images/cover.jpg"
+                  src={`${import.meta.env.BASE_URL}images/cover.jpg`}
                   alt="Python Mastery eBook cover"
                   className="mx-auto w-full max-w-sm rounded-2xl border border-white/20 shadow-2xl"
                 />

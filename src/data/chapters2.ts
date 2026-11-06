@@ -166,7 +166,7 @@ export const chapters2: Chapter[] = [
       {
         type: "image",
         image: {
-          src: "/images/oop-diagram.jpg",
+          src: `${import.meta.env.BASE_URL}images/oop-diagram.jpg`,
           alt: { en: "Inheritance hierarchy diagram", bm: "Gambar rajah hierarki pewarisan" },
           caption: {
             en: "Figure 7.1 — A base class (Animal) and its subclasses inherit shared attributes.",
